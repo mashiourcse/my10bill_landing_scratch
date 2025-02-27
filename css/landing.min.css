@@ -432,13 +432,13 @@ h1 {
 }
 
 h2 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 32px;
     line-height: 36px
 }
 
 h3 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 24px;
     line-height: 30px
 }
@@ -2270,15 +2270,15 @@ h1 {
 }
 
 h2 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 10px;
-    font-size: 32px;
+    font-size: 1rem;
     font-weight: 700;
-    line-height: 36px
+    line-height: 2rem;
 }
 
 h3 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 10px;
     font-size: 24px;
     font-weight: 700;
@@ -7411,9 +7411,9 @@ blockquote {
 
 .investment-img {
     object-fit: cover;
-    border-radius: 16px;
+    border-radius: 1rem;
     width: 100%;
-    height: 160px
+    height: 15rem;
 }
 
 .swiper-pagination {
@@ -9327,9 +9327,9 @@ blockquote {
         padding-right: 26px
     }
 
-    .investment-img {
+    /* .investment-img {
         height: 150px
-    }
+    } */
 
     .divider {
         margin-left: 30px;
@@ -15456,7 +15456,8 @@ blockquote {
     }
 
     .values-grid {
-        margin-top: 20px
+        /* margin-top: 20px; */
+        grid-template-columns: 1fr;
     }
 
     .value-holder {
@@ -15490,9 +15491,9 @@ blockquote {
         padding: 20px
     }
 
-    .investment-img {
+    /* .investment-img {
         height: 115px
-    }
+    } */
 
     .property-stats {
         grid-column-gap: 5px;
@@ -15975,12 +15976,13 @@ blockquote {
 .roadmap .timeline .info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 20px 40px;
     color: var(--white); /* Set text color to white for readability */
     background: #1c6bad; /* Set background to #1c6bad */
     white-space: normal;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    align-items: center;
+    justify-content: center;
 }
 
 .roadmap .timeline .info img {
@@ -16050,7 +16052,7 @@ blockquote {
     height: 16px;
     transform: translateY(-50%);
     border-radius: 50%;
-    background: #1c6bad; /* Changed to #1c6bad */
+    background: var(--black-0-8); /* Changed to #1c6bad */
     z-index: 1;
 }
 
@@ -16107,7 +16109,64 @@ blockquote {
 }
 
 
+@media (max-width: 768px) {
+    .roadmap {
+        all: unset; /* Reset all styles */
+        font-family: sans-serif;
+        padding: 20px;
+     
+    }
+
+    .roadmap .timeline {
+        all: unset;
+        /* display: block; */
+    }
+
+    .roadmap .timeline ol {
+        all: unset;
+        padding: 0;
+        list-style: none;
+    }
+    .roadmap .timeline .info {
+        display: flex;
+        padding: 20px 40px;
+        color: var(--white); /* Set text color to white for readability */
+        background: #1c6bad; /* Set background to #1c6bad */
+        white-space: normal;
+        /* border-radius: 10px; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .roadmap .timeline ol li {
+        all: unset;
+        display: block;
+        margin-bottom: 15px;
+        padding: 10px;
+        border-bottom: 1px solid #ddd; /* Just a simple separator */
+    }
+
+    .roadmap .timeline ol li:last-child {
+        border-bottom: none;
+    }
+
+    .roadmap .timeline ol li div {
+        all: unset;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .roadmap .timeline time {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+}
+
+
 /* roadmap */
+
+
 
 /* #home{
 

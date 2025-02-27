@@ -7084,7 +7084,7 @@ blockquote {
     flex-flow: column;
     padding: 32px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .feature-img {

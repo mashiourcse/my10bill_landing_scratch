@@ -2175,7 +2175,8 @@ textarea.w-select {
 
 :root {
     --black-0-8: #000c;
-    --light-green: #61cd81;
+    --custom-blue: #61cd81;
+    --custom-blue: #1563df;
     --gray: #f6f7f9;
     --white: white;
     --purple: #e6e6f2;
@@ -2602,7 +2603,7 @@ blockquote {
 
 .cardcircle {
     z-index: 0;
-    background-color: var(--light-green);
+    background-color: var(--custom-blue);
     border-radius: 50%;
     justify-content: center;
     align-items: center;
@@ -2906,7 +2907,7 @@ blockquote {
 }
 
 .main_heading {
-    color: #0a0a0a;
+    color: var(--white);
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -3235,7 +3236,7 @@ blockquote {
 }
 
 .white_btn_box {
-    border: 1px solid var(--light-green);
+    border: 1px solid var(--custom-blue);
     background-color: #fff0;
     border-radius: 100px;
     justify-content: center;
@@ -3435,7 +3436,7 @@ blockquote {
 }
 
 .success-message {
-    border: 1px solid var(--light-green);
+    border: 1px solid var(--custom-blue);
     color: #fff;
     background-color: #61cd818c;
     border-radius: 10px
@@ -4079,7 +4080,7 @@ blockquote {
 }
 
 .tab_btns:hover {
-    border-left-color: var(--light-green);
+    border-left-color: var(--custom-blue);
     color: var(--black-0-8);
     font-weight: 500
 }
@@ -4220,13 +4221,13 @@ blockquote {
 }
 
 .radio_dots:hover {
-    border-left-color: var(--light-green)
+    border-left-color: var(--custom-blue)
 }
 
 .radio_dots.w--redirected-checked {
     border-width: 0 0 0 5px;
-    border-top-color: var(--light-green);
-    border-left-color: var(--light-green);
+    border-top-color: var(--custom-blue);
+    border-left-color: var(--custom-blue);
     border-radius: 0%;
     width: 100%;
     margin-top: 0
@@ -4985,7 +4986,7 @@ blockquote {
 }
 
 .button-67 {
-    border: 1px solid var(--light-green);
+    border: 1px solid var(--custom-blue);
     color: #000;
     background-color: #0000;
     border-radius: 100px;
@@ -5002,13 +5003,13 @@ blockquote {
 }
 
 .button-67:hover {
-    box-shadow: inset 0 0 20px -7px var(--light-green);
+    box-shadow: inset 0 0 20px -7px var(--custom-blue);
     color: #61cd81;
     background-color: #fff
 }
 
 .button-67:active {
-    background-color: var(--light-green)
+    background-color: var(--custom-blue)
 }
 
 .tabs-content-8 {
@@ -5129,7 +5130,7 @@ blockquote {
 }
 
 .white_btn_box-copy {
-    border: 1px solid var(--light-green);
+    border: 1px solid var(--custom-blue);
     background-color: #fff0;
     border-radius: 100px;
     justify-content: center;
@@ -6324,7 +6325,7 @@ blockquote {
 }
 
 .nav-link:hover {
-    color: var(--light-green)
+    color: var(--custom-blue)
 }
 
 .nav-links {
@@ -6410,8 +6411,8 @@ blockquote {
 }
 
 .primary-btn {
-    border: 1px solid var(--light-green);
-    background-color: var(--light-green);
+    border: 1px solid var(--custom-blue);
+    background-color: var(--custom-blue);
     color: var(--white);
     cursor: pointer;
     border-radius: 100px;
@@ -6426,7 +6427,7 @@ blockquote {
 }
 
 .primary-btn:hover {
-    box-shadow: 0 0 10px 0 var(--light-green)
+    box-shadow: 0 0 10px 0 var(--custom-blue)
 }
 
 .primary-btn.navbar {
@@ -6442,7 +6443,7 @@ blockquote {
 
 .primary-btn.stroke:hover {
     background-color: var(--white);
-    color: var(--light-green);
+    color: var(--custom-blue);
     box-shadow: 0 0 20px #ffffff40
 }
 
@@ -6451,7 +6452,7 @@ blockquote {
 }
 
 .primary-btn.stroke.white-txt:hover {
-    color: var(--light-green)
+    color: var(--custom-blue)
 }
 
 .primary-btn.token-white {
@@ -6492,7 +6493,8 @@ blockquote {
 .nav-logo {
     text-align: left;
     cursor: pointer;
-    width: 56px
+    width: 56px;
+    scale: 4;
 }
 
 .hero-background {
@@ -6510,7 +6512,11 @@ blockquote {
     width: 100%;
     max-width: max-content;
     display: flex;
-    position: relative
+    position: relative;
+    /* border: 1px solid blue; */
+    padding: 1rem 1rem;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border-radius: 2rem;
 }
 
 .v-flex {
@@ -6625,7 +6631,7 @@ blockquote {
 .hero-link-txt {
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    color: var(--light-green);
+    color: var(--custom-blue);
     cursor: pointer;
     font-size: 15px;
     font-weight: 700;
@@ -6637,7 +6643,7 @@ blockquote {
 }
 
 .hero-description {
-    color: var(--535458);
+    color: var(--white);
     max-width: 66%;
     margin-top: 18px;
     font-family: Inter Tight, sans-serif;
@@ -7095,7 +7101,7 @@ blockquote {
 }
 
 .tabs-menu-features {
-    background-color: var(--light-green);
+    background-color: var(--custom-blue);
     border-radius: 50px;
     justify-content: center;
     align-items: center;
@@ -7327,7 +7333,7 @@ blockquote {
 
 .slide-number {
     z-index: 0;
-    background-color: var(--light-green);
+    background-color: var(--custom-blue);
     border-radius: 50%;
     justify-content: center;
     align-items: center;
@@ -7351,7 +7357,7 @@ blockquote {
 }
 
 .right-arrow-slider {
-    border: 1px solid var(--light-green);
+    border: 1px solid var(--custom-blue);
     border-radius: 50%;
     flex: none;
     justify-content: center;
@@ -7362,7 +7368,7 @@ blockquote {
 }
 
 .left-arrow-slider {
-    border: 1px solid var(--light-green);
+    border: 1px solid var(--custom-blue);
     border-radius: 50%;
     flex: none;
     justify-content: center;
@@ -7431,7 +7437,7 @@ blockquote {
 }
 
 .swiper-bullet.is-active {
-    background-color: var(--light-green);
+    background-color: var(--custom-blue);
     border-radius: 16px;
     width: 48px
 }
@@ -7633,7 +7639,7 @@ blockquote {
 }
 
 .answer-link {
-    color: var(--light-green);
+    color: var(--custom-blue);
     cursor: pointer;
     transition: all .3s
 }
@@ -7715,7 +7721,7 @@ blockquote {
 }
 
 .filter.fs-cmsfilter_active {
-    background-color: var(--light-green);
+    background-color: var(--custom-blue);
     color: var(--gray)
 }
 
@@ -7810,7 +7816,7 @@ blockquote {
 }
 
 .rich-text-blog a {
-    color: var(--light-green);
+    color: var(--custom-blue);
     cursor: pointer;
     transition: opacity .3s
 }
@@ -7890,7 +7896,7 @@ blockquote {
 }
 
 .blog-link-card:hover {
-    border-color: var(--light-green);
+    border-color: var(--custom-blue);
     box-shadow: 0 0 10px #61cd814d
 }
 
@@ -8011,7 +8017,7 @@ blockquote {
 }
 
 .green-span {
-    color: var(--light-green)
+    color: var(--custom-blue)
 }
 
 .hero-info-holder {
@@ -8190,7 +8196,7 @@ blockquote {
 }
 
 .green-back-holder {
-    background-color: var(--light-green);
+    background-color: var(--custom-blue);
     border-radius: 24px;
     flex-flow: column;
     height: 100%;
@@ -8239,7 +8245,7 @@ blockquote {
 }
 
 .progress-bar {
-    background-color: var(--light-green);
+    background-color: var(--custom-blue);
     border-radius: 10px;
     flex: none;
     justify-content: flex-start;
@@ -8617,7 +8623,7 @@ blockquote {
 .dark-blue-highlight {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    border: 2px solid var(--light-green);
+    border: 2px solid var(--custom-blue);
     background-color: var(--transparent);
     color: var(--dark-blue);
     border-radius: 50px;
@@ -8733,7 +8739,7 @@ blockquote {
 }
 
 .our-fees {
-    background-color: var(--light-green);
+    background-color: var(--custom-blue);
     color: var(--white);
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
@@ -8802,7 +8808,7 @@ blockquote {
 .green-link-btn {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
-    background-color: var(--light-green);
+    background-color: var(--custom-blue);
     color: var(--white);
     cursor: pointer;
     border-radius: 24px;
@@ -8893,7 +8899,7 @@ blockquote {
 }
 
 .link-in-txt {
-    color: var(--light-green);
+    color: var(--custom-blue);
     cursor: pointer;
     transition: all .4s
 }
@@ -8948,7 +8954,7 @@ blockquote {
 }
 
 .green-back-holder-tokenize {
-    background-color: var(--light-green);
+    background-color: var(--custom-blue);
     border-radius: 24px;
     flex-flow: column;
     justify-content: center;
@@ -9444,7 +9450,7 @@ blockquote {
     }
 
     .social_icons_circle:hover {
-        border-color: var(--light-green)
+        border-color: var(--custom-blue)
     }
 
     .tab_sliders {
@@ -9789,7 +9795,7 @@ blockquote {
     }
 
     .social-icons-circle:hover {
-        border-color: var(--light-green)
+        border-color: var(--custom-blue)
     }
 
     .slide-number {
@@ -11328,7 +11334,7 @@ blockquote {
     }
 
     .menu-btn {
-        border: 1px solid var(--light-green);
+        border: 1px solid var(--custom-blue);
         border-radius: 50%;
         flex-flow: column;
         flex: none;
@@ -12136,7 +12142,7 @@ blockquote {
     }
 
     .togle_box {
-        border: 1px solid var(--light-green);
+        border: 1px solid var(--custom-blue);
         border-radius: 100px;
         flex-direction: column;
         justify-content: center;
@@ -12829,10 +12835,10 @@ blockquote {
     }
 
     .tab-link-tab-1-2 {
-        border: 0px none var(--light-green);
-        background-color: var(--light-green);
+        border: 0px none var(--custom-blue);
+        background-color: var(--custom-blue);
         color: #fff;
-        -webkit-text-stroke-color: var(--light-green);
+        -webkit-text-stroke-color: var(--custom-blue);
         border-radius: 0;
         justify-content: center;
         width: 100%;
@@ -12853,8 +12859,8 @@ blockquote {
     .tab-link-tab-2-2 {
         border-style: solid solid none;
         border-width: 1px 1px 0;
-        border-color: var(--light-green);
-        background-color: var(--light-green);
+        border-color: var(--custom-blue);
+        background-color: var(--custom-blue);
         color: #fff;
         border-radius: 0;
         justify-content: center;
@@ -12873,8 +12879,8 @@ blockquote {
     .tab-link-tab-3 {
         border-style: solid solid none;
         border-width: 1px 1px 0;
-        border-color: var(--light-green);
-        background-color: var(--light-green);
+        border-color: var(--custom-blue);
+        background-color: var(--custom-blue);
         color: #fff;
         border-radius: 0;
         justify-content: center;
@@ -12894,7 +12900,7 @@ blockquote {
     }
 
     .tabs-menu-7 {
-        background-color: var(--light-green);
+        background-color: var(--custom-blue);
         border: 0 #000;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -15270,7 +15276,7 @@ blockquote {
     }
 
     .nav-link {
-        border: 1px solid var(--light-green);
+        border: 1px solid var(--custom-blue);
         border-radius: 100px;
         padding-top: 16px;
         padding-bottom: 16px
@@ -16113,3 +16119,9 @@ blockquote {
   }
 
 /* roadmap */
+
+/* #home{
+
+    background-image: url('../assets/images/background.webp');
+    filter: brightness(50%);
+} */

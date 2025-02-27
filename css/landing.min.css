@@ -6511,7 +6511,7 @@ blockquote {
 .container-new {
     z-index: 10;
     flex-flow: column;
-    width: 100%;
+    width: 90%;
     max-width: max-content;
     display: flex;
     position: relative;

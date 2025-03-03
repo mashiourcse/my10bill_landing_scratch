@@ -7087,7 +7087,7 @@ blockquote {
     grid-column-gap: 24px;
     grid-row-gap: 24px;
     grid-template-rows: auto;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #investor .feature-div {
@@ -7105,7 +7105,7 @@ blockquote {
     grid-column-gap: 24px;
     grid-row-gap: 24px;
     grid-template-rows: auto;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .feature-div {
     grid-column-gap: 24px;
@@ -13300,6 +13300,12 @@ blockquote {
         /* margin-top: 32px; */
     }
 
+    #investor .features-grid {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+}
     .features-grid {
         grid-template-columns: 1fr;
         /* display: none; */

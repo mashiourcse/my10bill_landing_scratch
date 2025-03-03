@@ -7073,7 +7073,7 @@ blockquote {
 }
 
 .features-main-holder {
-    margin-top: 40px
+    /* margin-top: 40px; */
 }
 
 .features-grid {
@@ -7087,14 +7087,25 @@ blockquote {
     grid-column-gap: 24px;
     grid-row-gap: 24px;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+#investor .feature-div {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    /* background-color: var(--gray); */
+    border-radius: 24px;
+    flex-flow: column;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #model .features-grid {
     grid-column-gap: 24px;
     grid-row-gap: 24px;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 .feature-div {
     grid-column-gap: 24px;
@@ -13286,13 +13297,29 @@ blockquote {
     }
 
     .features-main-holder {
-        margin-top: 32px
+        /* margin-top: 32px; */
     }
 
     .features-grid {
         grid-template-columns: 1fr;
-        display: none
+        /* display: none; */
     }
+    #model .features-grid {
+        grid-template-columns: 1fr;
+        /* display: none; */
+    }
+
+    #model .feature-div {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    /* background-color: var(--gray); */
+    border-radius: 24px;
+    flex-flow: column;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+    
 
     .tabs-menu-features {
         grid-column-gap: 16px;
@@ -16211,6 +16238,7 @@ blockquote {
         margin-bottom: 15px;
         padding: 10px;
         border-bottom: 1px solid #ddd; /* Just a simple separator */
+        color: white;
     }
 
     .roadmap .timeline ol li:last-child {
@@ -16220,7 +16248,7 @@ blockquote {
     .roadmap .timeline ol li div {
         all: unset;
         font-size: 16px;
-        color: #333;
+        /* color: #333; */
     }
 
     .roadmap .timeline time {

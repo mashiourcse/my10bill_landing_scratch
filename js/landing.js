@@ -75,3 +75,6 @@ function setEqualHeights(el) {
     el[i].style.height = `${counter}px`;
   }
 }
+
+
+

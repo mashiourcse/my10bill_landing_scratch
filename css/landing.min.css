@@ -6901,7 +6901,7 @@ blockquote {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    height: 90px;
+    height: 140px;
     display: flex
 }
 
@@ -7703,7 +7703,8 @@ blockquote {
 .accordion-item-content-new {
     margin-top: 0;
     margin-right: 40px;
-    overflow: hidden
+    overflow: hidden;
+    transition: height 0.5s ease, opacity 0.5s ease;
 }
 
 .faq-answer {
@@ -16202,7 +16203,7 @@ blockquote {
 
 .roadmap .timeline time {
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.0rem;
     font-weight: bold;
     margin-bottom: 8px;
     color: #1c6bad; /* Updated to match the primary color */
